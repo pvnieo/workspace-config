@@ -1,4 +1,6 @@
-# Install Z-shell
+# Workspace-config
+
+## Install Z-shell
 
  - Install oh-my-zsh
 ```
@@ -20,7 +22,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-s
 echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
 ```
 
-# Install VSCode and its configuration
+## Install VSCode and its configuration
 
  - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
  - Install Kite: 
@@ -30,7 +32,7 @@ echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HO
  [https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
  - Extensions: `autoDocstring` - `Trailing Spaces` - `Code Linting` - `GitLens`
 
-# Install Jupyter and its extensions
+## Install Jupyter and its extensions
 
  - Install Jupyter
  `pip3 install jupyter`

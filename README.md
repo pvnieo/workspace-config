@@ -1,5 +1,5 @@
 
-# server-config
+# workspace-config
 
 ## Install CUDA & Deep Learning Libraries
 

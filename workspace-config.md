@@ -31,7 +31,7 @@ echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HO
  `sudo apt install fonts-firacode`
  [https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
  - Extensions: `autoDocstring` - `Trailing Spaces` - `Code Linting` - `Python for VSCode
-` - `GitLens`
+` - `GitLens` - `Markdown Preview Enhanced`
 
 ## Install Jupyter and its extensions
 
@@ -52,6 +52,4 @@ jupyter nbextension enable --py widgetsnbextension
 pip3 install jupyterthemes
 pip3 install --upgrade jupyterthemes
 jt -t grade3 -fs 95 -tfs 11 -nfs 115 -cellw 88% -T
- ``` 
- 
- 
+ ```

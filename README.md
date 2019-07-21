@@ -1,5 +1,5 @@
 
-# workspace-config
+# server-config
 
 ## Install CUDA & Deep Learning Libraries
 
@@ -45,34 +45,3 @@ pip3 install tensorflow-gpu
 pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-linux_x86_64.whl  
 pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-linux_x86_64.whl
 ```
-
-# Install VSCode and its configuration
-
- - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
- - Install Kite: 
- `bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"`
- - Install Firacode & setup:
- `sudo apt install fonts-firacode`
- [https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
- - Extensions: `autoDocstring` - `Trailing Spaces` - `Code Linting` - `GitLens`
-
-# Install Jupyter and its extensions
-
- - Install Jupyter
- `pip3 install jupyter`
- - Install Jupyter widgets
- ```
- pip install ipywidgets
-jupyter nbextension enable --py widgetsnbextension
-```
- - Install Jupyter extensions and enable extensions: `Collapsible Headings`  - `Hinterland` - `Autopep8`
- ```
- pip3 install jupyter_contrib_nbextensions
- jupyter contrib nbextension install --user
- ```
- - Setup Jupyter Theme
- ```
-pip3 install jupyterthemes
-pip3 install --upgrade jupyterthemes
-jt -t grade3 -fs 95 -tfs 11 -nfs 115 -cellw 88% -T
- ``` 

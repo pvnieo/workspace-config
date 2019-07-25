@@ -30,8 +30,7 @@ echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HO
  - Install Firacode & setup:
  `sudo apt install fonts-firacode`
  [https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
- - Extensions: `autoDocstring` - `Trailing Spaces` - `Code Linting` - `Python for VSCode
-` - `GitLens` - `Markdown Preview Enhanced` - `VS Code Icons` - `Remote Development` - `Prettier` - `Code Spell Checker` - `Bracket Pair Colorizer` - `Dracula / Material themes`
+ - Extensions: `Dracula / Material themes` - `Material Icons` -  `Bracket Pair Colorizer` - `Code Linting` - `Code Spell Checker` - `Python for VSCode` - `autoDocstring` - `Trailing Spaces` - `GitLens` - `Markdown Preview Enhanced` - `Remote Development` - `Code Runner`
 
 ## Install Jupyter and its extensions
 

@@ -50,5 +50,5 @@ jupyter nbextension enable --py widgetsnbextension
  ```
 pip3 install jupyterthemes
 pip3 install --upgrade jupyterthemes
-jt -t grade3 -fs 95 -tfs 11 -nfs 115 -cellw 88% -T
+jt -t grade3 -fs 95 -tfs 11 -nfs 115 -cellw 88% -T -N
  ```

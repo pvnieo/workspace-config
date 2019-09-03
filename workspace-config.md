@@ -10,10 +10,11 @@ sudo apt install zsh
 sudo apt-get install powerline fonts-powerline
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
- - Setup Theme (download theme from https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+ - Setup powerlevel (download fonts from https://github.com/romkatv/powerlevel10k#oh-my-zsh)
  ```
+ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
  vi .zshrc
  ZSH_THEME="powerlevel10k/powerlevel10k"
  POWERLEVEL9K_MODE="awesome-patched"

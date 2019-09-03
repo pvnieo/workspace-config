@@ -10,16 +10,42 @@ sudo apt install zsh
 sudo apt-get install powerline fonts-powerline
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
  - Setup Theme
  ```
  vi .zshrc
- ZSH_THEME="agnoster"
+ ZSH_THEME="powerlevel10k/powerlevel10k"
+ POWERLEVEL9K_MODE="awesome-patched"
+ ```
+ - Download and install
+ ```
+ https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf
+ https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf
+ 
  ```
  - Syntax Highlighting
  ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-syntax-highlighting" --depth 1
 echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
+```
+ - Thefuck
+ ```
+ sudo apt update
+sudo apt install python3-dev python3-pip python3-setuptools
+sudo pip3 install thefuck
+ ```
+ - zsh-autosuggestion
+ ```
+ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+- add zsh plugins
+```
+plugins=(
+  git
+  zsh-autosuggestions
+  git-auto-fetch
+)
 ```
 
 ## Install VSCode and its configuration

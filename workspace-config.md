@@ -11,18 +11,15 @@ sudo apt-get install powerline fonts-powerline
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
- - Setup powerlevel (download fonts from https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+ - Install powerlevel9k
  ```
  git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
- vi .zshrc
- ZSH_THEME="powerlevel10k/powerlevel10k"
- POWERLEVEL9K_MODE="awesome-patched"
  ```
- - Download and install
+ - Download and install fonts
  ```
  https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf
  https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf
+ https://github.com/ryanoasis/nerd-fonts/blob/e9ec3ae4548e59eb9a6531f38370cb99ca591e16/patched-fonts/Meslo/L-DZ/complete/Meslo%20LG%20L%20DZ%20Regular%20Nerd%20Font%20Complete.otf (used)
  
  ```
  - Syntax Highlighting
@@ -30,24 +27,26 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-syntax-highlighting" --depth 1
 echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
 ```
- - Thefuck
+ - zsh-autosuggestion
+ ```
+ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+ - zsh-history-substring-search
+ ```
+  git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+ ```
+- change `.zshrc` with the file in this folder
+ - install Thefuck
  ```
  sudo apt update
 sudo apt install python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
  ```
- - zsh-autosuggestion
+ - colorls
  ```
- git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
-- add zsh plugins
-```
-plugins=(
-  git
-  zsh-autosuggestions
-  git-auto-fetch
-)
-```
+ sudo apt install ruby-full
+ sudo gem install colorls
+ ```
 
 ## Install VSCode and its configuration
 

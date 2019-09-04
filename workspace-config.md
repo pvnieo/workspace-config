@@ -2,6 +2,20 @@
 
 ## Install Z-shell
 
+ - install Terminator
+ ```
+ sudo add-apt-repository ppa:gnome-terminator
+ sudo apt-get update
+ sudo apt-get install terminator
+ ```
+ - install terminator-themes
+ ```
+ sudo apt install python-requests
+ mkdir -p $HOME/.config/terminator/plugins
+ wget https://git.io/v5Zww -O $HOME"/.config/terminator/plugins/terminator-themes.py"
+ activate plugin from settings
+ ```
+
  - Install oh-my-zsh
 ```
 sudo apt-get update

@@ -45,11 +45,6 @@ echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HO
  ```
  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
- - zsh-history-substring-search
- ```
-  git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
- ```
-- change `.zshrc` with the file in this folder
  - install Thefuck
  ```
  sudo apt update
@@ -66,6 +61,7 @@ sudo pip3 install thefuck
  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
  ```
+  - change `.zshrc` with the file in this folder
 
 ## Install VSCode and its configuration
 

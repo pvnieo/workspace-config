@@ -61,6 +61,11 @@ sudo pip3 install thefuck
  sudo apt install ruby-full
  sudo gem install colorls
  ```
+ - fzf history search
+ ```
+ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+ ```
 
 ## Install VSCode and its configuration
 

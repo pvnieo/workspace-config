@@ -61,6 +61,11 @@ sudo pip3 install thefuck
 ~/.fzf/install
  ```
   - change `.zshrc` with the file in this folder
+  - run this command
+  ```
+  zsh
+chsh -s $(which zsh)
+```
   - configure internal terminal at vscode
   ```
   git clone git@github.com:ryanoasis/nerd-fonts.git --depth 1

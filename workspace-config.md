@@ -8,7 +8,7 @@
  sudo apt-get update
  sudo apt-get install terminator
  ```
- - install terminator-themes
+ - install terminator-themes (molokai)
  ```
  sudo apt install python-requests
  mkdir -p $HOME/.config/terminator/plugins
@@ -68,7 +68,7 @@ chsh -s $(which zsh)
 ```
   - configure internal terminal at vscode
   ```
-  git clone git@github.com:ryanoasis/nerd-fonts.git --depth 1
+git clone https://github.com/ryanoasis/nerd-fonts.git --depth 1
 cd nerd-fonts
 sudo ./install.sh
   ```
@@ -76,7 +76,7 @@ then add this to `settings.json`:
 ```json
 "terminal.integrated.shell.linux": "/bin/zsh",
 "terminal.integrated.shell.osx": "/bin/zsh",
-"terminal.integrated.fontFamily": "MesloLGM Nerd Font"
+"terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font"
 ```
 ## Install VSCode and its configuration
 

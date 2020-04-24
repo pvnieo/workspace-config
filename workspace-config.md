@@ -83,7 +83,9 @@ then add this to `settings.json`:
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font",
     "python.testing.pytestEnabled": true,
-    "python.pythonPath": "/usr/bin/python3.8"
+    "python.pythonPath": "/usr/bin/python3.8",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "python.linting.pylintArgs": ["--extension-pkg-whitelist=cv2"],
 ```
 ## Install VSCode and its configuration
 

@@ -104,7 +104,7 @@ then add this to `settings.json`:
  pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension
 ```
- - Install Jupyter extensions and enable extensions: `Collapsible Headings`  - `Hinterland` - `Autopep8`
+ - Install Jupyter extensions and enable extensions: `Collapsible Headings`  - `Hinterland` - `Autopep8` - `Code Prettify`
  ```
  pip3 install jupyter_contrib_nbextensions
  jupyter contrib nbextension install --user

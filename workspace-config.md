@@ -74,9 +74,16 @@ sudo ./install.sh
   ```
 then add this to `settings.json`:
 ```json
-"terminal.integrated.shell.linux": "/bin/zsh",
-"terminal.integrated.shell.osx": "/bin/zsh",
-"terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font"
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font",
+    "python.testing.pytestEnabled": true,
+    "python.pythonPath": "/usr/bin/python3.8"
 ```
 ## Install VSCode and its configuration
 
@@ -86,7 +93,7 @@ then add this to `settings.json`:
  - Install Firacode & setup:
  `sudo apt install fonts-firacode`
  [https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
- - Extensions: `Dracula / Material themes` - `Material Icons` -  `Bracket Pair Colorizer` - `Code Linting` - `Code Spell Checker` - `Python for VSCode` - `autoDocstring` - `Trailing Spaces` - `GitLens` - `Markdown Preview Enhanced` - `Remote Development` - `Code Runner` - `Git File History` - `Peacock`
+ - Extensions: `Dracula / Material themes` - `Material Icons` -  `Bracket Pair Colorizer` - `Code Linting` - `Code Spell Checker` - `Python for VSCode` - `autoDocstring` - `Trailing Spaces` - `GitLens` - `Markdown Preview Enhanced` - `Remote Development` - `Code Runner` - `Git File History` - `Peacock` - enable `pytest` - `Python Test Explorer for Visual Studio Code`
 
 ## Install Jupyter and its extensions
 

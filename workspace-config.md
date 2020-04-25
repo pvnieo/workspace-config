@@ -85,7 +85,18 @@ then add this to `settings.json`:
     "python.testing.pytestEnabled": true,
     "python.pythonPath": "/usr/bin/python3.8",
     "kite.showWelcomeNotificationOnStartup": false,
-    "python.linting.pylintArgs": ["--extension-pkg-whitelist=cv2"],
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=cv2",
+        "--max-line-length=130",
+        "--ignore=E24,W503,E203",
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=130",
+        "--ignore=E24,W503,E203",
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
 ```
 ## Install VSCode and its configuration
 

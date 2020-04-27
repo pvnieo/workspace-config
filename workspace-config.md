@@ -128,3 +128,11 @@ pip3 install jupyterthemes
 pip3 install --upgrade jupyterthemes
 jt -t grade3 -fs 95 -tfs 11 -nfs 115 -cellw 88% -T -N
  ```
+ 
+ ## Configure i3
+  - copy folders: flags - i3 - styles (with typeface) and  i3xrocks to `~/.config/regolith`
+  - change fonts icon in `styles/i3-wm`
+  - change fonts in `styles/typeface`
+  - add new font to `i3/config`
+  - add `back-forth` and startup actions to `i3/config`
+  - add new files (i3-wm - typeface - theme) to `~/.Xresources-regolith`

@@ -121,10 +121,6 @@ source $ZSH/oh-my-zsh.sh
 alias suroot='sudo -E -s'
 alias ll='colorls -lA --sd --group-directories-first'
 alias ls='colorls --group-directories-first'
-
-eval $(thefuck --alias)
-
-# For nvidia, tf
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
-export CUDA_HOME=/usr/local/cuda
-export PATH="$PATH:/usr/local/cuda/bin"
+alias python="~/miniconda3/bin/python"
+alias conda="~/miniconda3/bin/conda"
+alias pip="~/miniconda3/bin/pip"

@@ -15,8 +15,13 @@
  wget https://git.io/v5Zww -O $HOME"/.config/terminator/plugins/terminator-themes.py"
  activate plugin from settings
  ```
+ - copy on selection + no titlebar (profiles/general)
+ - scrollback 5000 - diseble scrollbar (profiles/scrolling)
+ - reuse profil + font (global)
+ - in layout make sure windows use default
 
  - Install oh-my-zsh
+ 
 ```
 sudo apt-get update
 sudo apt upgrade

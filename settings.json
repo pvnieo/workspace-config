@@ -1,0 +1,35 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font",
+    "python.testing.pytestEnabled": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=cv2,scipy.spatial",
+        "--max-line-length=130",
+        "--ignore=E24,W503,E203",
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=130",
+        "--ignore=E24,W503,E203",
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "window.zoomLevel": 0,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "git.suggestSmartCommit": false,
+    "cSpell.userWords": [
+        "eigen"
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.defaultInterpreterPath": "/usr/bin/python3.8",
+}

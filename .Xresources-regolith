@@ -1,0 +1,5 @@
+! -- This points to the default looks Xresource root file.
+#include "/etc/regolith/styles/lascaille/root"
+#include "/home/levi/.config/regolith/styles/typeface"
+#include "/home/levi/.config/regolith/styles/i3-wm"
+#include "/home/levi/.config/regolith/styles/i3xrocks"
